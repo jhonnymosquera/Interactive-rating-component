@@ -84,7 +84,7 @@ li {
 	justify-content: space-between;
 }
 
-.card__content--li{
+.card__content--li, .circle{
 	background-color: var(--fondo-gris);
 	width: 45rem;
 	height: 45rem;
