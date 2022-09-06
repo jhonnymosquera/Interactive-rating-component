@@ -34,6 +34,10 @@ body {
 	font-family: var(--fuente);
 	background-color: var(--azul-muy-oscuro);
 	color: var(--blanco);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 a {
@@ -60,10 +64,7 @@ li {
 	margin-bottom: 15rem;
 }
 
-
-
 .card {
-	margin-top: 150rem;
 	display: flex;
 	justify-content: center;
 }
@@ -84,7 +85,8 @@ li {
 	justify-content: space-between;
 }
 
-.card__content--li, .circle{
+.card__content--li,
+.circle {
 	background-color: var(--fondo-gris);
 	width: 45rem;
 	height: 45rem;
@@ -94,11 +96,10 @@ li {
 	align-items: center;
 }
 
-.card__content--li:hover{
+.card__content--li:hover {
 	background-color: var(--naranja);
 	cursor: pointer;
 }
-
 
 .btn {
 	width: 100%;
@@ -116,7 +117,6 @@ li {
 	cursor: pointer;
 }
 
-
 .fondo-gris {
 	background-color: var(--gris-claro);
 }
@@ -125,15 +125,15 @@ li {
 	display: none;
 }
 
-.respuesta{
+.respuesta {
 	text-align: center;
 }
 
-.puntaje{
+.puntaje {
 	margin-bottom: 30rem;
 }
 
-.mensaje{
+.mensaje {
 	display: inline-block;
 	background-color: var(--fondo-gris);
 	color: var(--naranja);
@@ -141,7 +141,7 @@ li {
 	border-radius: 20rem;
 }
 
-.alert{
+.alert {
 	margin-top: 30rem;
 	text-align: center;
 }
